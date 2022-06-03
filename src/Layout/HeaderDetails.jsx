@@ -1,5 +1,4 @@
-import { StyleHeader, ImgHome } from "../Style/StyleHeader";
-import pngHome from "../Assets/Img/Home.PNG"
+import { StyleHeader } from "../Style/StyleHeader";
 
 export default function Header ( {title} ){
 
@@ -7,11 +6,9 @@ export default function Header ( {title} ){
         <>
         <StyleHeader>
             <h1>{title}</h1>
+            <p>Home Favoritos</p>
         </StyleHeader>
-        <ImgHome src={pngHome} />
         </>
     )
 
 }
-
-
